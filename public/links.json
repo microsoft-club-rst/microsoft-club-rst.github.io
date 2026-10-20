@@ -1,0 +1,125 @@
+{
+  "featuredCommunity": {
+    "url": "https://chat.whatsapp.com/CcUMYXov1N4Ccb4f6T5cAg",
+    "ar": {
+      "badge": "المجتمع الرئيسي",
+      "title": "مجتمع WhatsApp",
+      "description": "المعسكرات، الفعاليات، ورش العمل، الفرص وأحدث التحديثات."
+    },
+    "en": {
+      "badge": "MAIN COMMUNITY",
+      "title": "WhatsApp Community",
+      "description": "Camps, events, workshops, opportunities & updates."
+    }
+  },
+  "registrationTitle": {
+    "ar": "التسجيل والفرص",
+    "en": "Registration & Opportunities"
+  },
+  "opportunities": [
+    {
+      "id": "student",
+      "icon": "student",
+      "gradient": "from-[#0078D4] to-[#00A4EF]",
+      "shadowColor": "shadow-[#0078D4]/25",
+      "url": "https://forms.cloud.microsoft/r/DBBsHKuGmR?origin=lprLink",
+      "ar": {
+        "title": "التقديم كطالب",
+        "description": "ابدأ رحلتك مع مجتمع Microsoft Club."
+      },
+      "en": {
+        "title": "Apply as a Student",
+        "description": "Start your journey with Microsoft Club."
+      }
+    },
+    {
+      "id": "technical",
+      "icon": "technical",
+      "gradient": "from-[#0F6CBD] to-[#115EA3]",
+      "shadowColor": "shadow-[#0F6CBD]/25",
+      "url": "https://forms.cloud.microsoft/r/LKjuzCWp7K?origin=lprLink",
+      "ar": {
+        "title": "الفريق التقني",
+        "description": "لو عندك خبرة في مجال تقني وحابب تكون جزء أكبر من الفريق، قدّم للانضمام للفريق التقني."
+      },
+      "en": {
+        "title": "Core Team - Technical",
+        "description": "Contribute to the technical side of a Track."
+      }
+    },
+    {
+      "id": "managerial",
+      "icon": "managerial",
+      "gradient": "from-[#FF8C00] to-[#E83B00]",
+      "shadowColor": "shadow-[#FF8C00]/25",
+      "url": "https://forms.cloud.microsoft/r/YW9KQSQRvq?origin=lprLink",
+      "ar": {
+        "title": "الفريق الإداري",
+        "description": "شارك في تنظيم وإدارة الأنشطة والفعاليات وبناء تجربة المجتمع."
+      },
+      "en": {
+        "title": "Core Team - Managerial",
+        "description": "Help organize and manage a Track."
+      }
+    },
+    {
+      "id": "leads",
+      "icon": "leads",
+      "gradient": "from-[#FFB900] to-[#D83B01]",
+      "shadowColor": "shadow-[#FFB900]/25",
+      "url": "https://forms.cloud.microsoft/r/BWDRD2MqfH?origin=lprLink",
+      "ar": {
+        "title": "التسجيل كقائد",
+        "description": "شايف نفسك قادر تقود مجال وتساعد في تطويره؟ قدّم كقائد أو قائد مساعد."
+      },
+      "en": {
+        "title": "Leads Registration",
+        "description": "Lead a Track and help shape its journey."
+      }
+    },
+    {
+      "id": "info-session",
+      "icon": "info-session",
+      "gradient": "from-[#6264A7] to-[#464775]",
+      "shadowColor": "shadow-[#6264A7]/25",
+      "url": "https://forms.cloud.microsoft/r/9ZZJuBdAEZ?origin=lprLink",
+      "ar": {
+        "title": "اللقاء التعريفي",
+        "description": "اتعرف على مجتمع Microsoft Club واكتشف كل التفاصيل اللي جاية."
+      },
+      "en": {
+        "title": "Info Session Registration",
+        "description": "Meet Microsoft Club and discover what's ahead."
+      }
+    }
+  ],
+  "stayUpdated": {
+    "url": "https://www.facebook.com/profile.php?id=61595460336772",
+    "ar": {
+      "title": "خليك دايماً متابع",
+      "description": "تابع صفحتنا على Facebook عشان تعرف آخر الفعاليات، الأنشطة، الفرص، وأحدث الإعلانات أولاً بأول.",
+      "button": "تابعنا على Facebook ←"
+    },
+    "en": {
+      "title": "Stay Updated",
+      "description": "Follow our Facebook page for the latest events, activities, opportunities, and announcements.",
+      "button": "Follow us on Facebook →"
+    }
+  },
+  "followJourney": {
+    "ar": {
+      "title": "تابع رحلتنا",
+      "subtitle": "خليك قريب من أنشطتنا ومحتوانا وتواصل مع مجتمعنا."
+    },
+    "en": {
+      "title": "Follow Our Journey",
+      "subtitle": "Stay connected with our activities, content, and community."
+    }
+  },
+  "socialLinks": {
+    "facebook": "https://www.facebook.com/profile.php?id=61595460336772",
+    "whatsapp": "https://chat.whatsapp.com/CcUMYXov1N4Ccb4f6T5cAg",
+    "linkedin": "https://linkedin.com/company/microsoft-club-rst",
+    "instagram": "https://www.instagram.com/microsoft_rst"
+  }
+}
