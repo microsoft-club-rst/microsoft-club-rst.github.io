@@ -58,11 +58,7 @@ export default function App() {
   const [data, setData] = useState<ClubData | null>(null);
 
   useEffect(() => {
-    const rawBase = import.meta.env.BASE_URL || "./";
-    const base = rawBase.endsWith("/") ? rawBase : `${rawBase}/`;
-    const linksUrl = `${base}links.json?v=${Date.now()}`;
-
-    fetch(linksUrl)
+    fetch(import.meta.env.BASE_URL + "links.json?v=" + Date.now())
       .then((res) => {
         if (!res.ok) throw new Error(`HTTP ${res.status}`);
         return res.json();
@@ -208,6 +204,15 @@ export default function App() {
       }
     }
   ];
+
+  if (!data) {
+    return (
+      <div className="min-h-screen bg-[#F8F9FA] flex flex-col items-center justify-center">
+        <div className="w-10 h-10 border-4 border-[#0078D4] border-t-transparent rounded-full animate-spin mb-3"></div>
+        <p className="text-sm font-bold text-slate-600">Loading / جاري التحميل...</p>
+      </div>
+    );
+  }
 
   const opportunitiesList = data?.opportunities?.length ? data.opportunities : defaultOpportunities;
 
