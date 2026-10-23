@@ -248,9 +248,9 @@ export default function App() {
         {/* Brand Header with Crisp High-Res Logo */}
         <section className="text-center pt-1 pb-3">
           <img 
-            src="./logo.svg" 
+            src={`${import.meta.env.BASE_URL}logo.png?v=new`} 
             alt="Microsoft Club - RST University" 
-            className="h-24 sm:h-28 w-auto max-w-[240px] mx-auto mb-2 object-contain select-none drop-shadow-sm"
+            className="w-28 h-28 sm:w-32 sm:h-32 mx-auto mb-2 object-contain select-none drop-shadow-sm"
             style={{ imageRendering: '-webkit-optimize-contrast' }}
           />
           <h1 className="text-2xl sm:text-3xl font-black tracking-tight text-slate-900 mb-1">
